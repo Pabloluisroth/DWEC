@@ -1,0 +1,6 @@
+Inicio
+
+    Leer NumeroUno y NumeroDos
+    SUMA = entrada_por_teclado +  entrada_por_teclado
+    Mostrar Suma, Mostrar leer
+Fin
