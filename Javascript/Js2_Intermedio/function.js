@@ -192,6 +192,9 @@ document.body.appendChild(table);
                     found = true;
                     total++;
                 }
+
+                
+
             }
             if (found) {
                 tableReg.rows[i].style.display = '';
