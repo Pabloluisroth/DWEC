@@ -65,14 +65,15 @@ function myFunction() {
       heading[2] = "Empresa e iniciativa web "
       heading[4] = "Ingles"
       heading[5] = "Entorno Servidor"
-      heading[6] = "Entorno Cliente"
+     
       
       var stock = new Array()
       
-      stock[0] = new Array("1º Trimestre" )
-      stock[1] = new Array("2º Trimestre")
-      stock[2] = new Array("3º Trimestre")
-      stock[3] = new Array("evaluacion final")
+      stock[0] = new Array("1º" )
+      stock[1] = new Array("2º")
+      stock[2] = new Array("3º")
+      stock[3] = new Array("4º")
+      stock[4] = new Array("quinta columna")
       
       
       //COLUMNAS DE LA TABLA
