@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>JS4-intermedio</title>
+        <style>
+            @font-face {
+              font-family: 'Pokemon Solid';
+              src: url(fuentes/Pokemon Solid.ttf);
+
+            }
+
+
+
+
+            body {
+                background-image: url(https://wallpapercave.com/wp/AIfoGgk.jpg);
+            }
+            h1{
+                font-family: 'Pokemon Solid';
+            }
+            body,form {
+                
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                place-items: center;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                align-content: center;
+            }
+
+         input {
+                margin-top: 5%;
+            }
+
+   
+            input:focus {
+                border: 2px solid #89703d;
+            }
+
+            tr {
+                border-top: 2px solid blue;
+            }
+
+            img {
+                height: 20%;
+            }
+
+
+
+            #tipos > ul {
+                
+            }
+            li{
+                list-style:none;
+            }
+            @keyframes opacityGrow {
+                0% {
+                    opacity: 0;
+                }
+
+                100% {
+                    opacity: 1;
+                }
+            }
+
+            #tablapokemon {
+
+                height: 100%;
+                justify-items: center;
+            }
+             td{
+                margin: 3em;
+            }
+            .titulo{
+                text-decoration: underline;
+            }
+
+
+        </style>
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <h1>¡Busca tu pokemon!</h1>
+        <div id="background">
+            <input type="text" id="searchbarUserInput">
+
+            <table id="tablapokemon">
+                <tr class=titulo>
+                    <td>Sprite</td>
+                    <td>Nombre</td>
+                    <td>altura</td>
+                    <td>peso</td>
+                    <td>versiones</td>
+                    <td>tipos</td>
+                </tr>
+                 <tr>
+                    <td ><img id="sprite" src="" height="600"></td>
+                    <td id="nombre"></td>
+                    <td id="altura"></td>
+                    <td id="peso"></td>
+                    <td id="versiones"></td>
+                    <td id="tipos"></td>
+                </tr>
+
+        </div>
+    </body>
+</html>
